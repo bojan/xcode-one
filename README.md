@@ -20,7 +20,7 @@ Install the `.xcworkspacecolortheme` files:
 
 One Dark and One Light are the ports of the Atom themes, with a flat background. Plum, Indigo and Aurora are new variants, not from Atom: the same colors on a gradient background. For slides and screen sharing, use Presentation mode in Settings → Fonts.
 
-Xcode 27 themes do not contain fonts. The themes were designed with SF Mono Regular and italic comments, which you can set in Settings → Fonts.
+Xcode 27 themes cannot contain fonts. Set SF Mono Regular with italic comments in Settings → Fonts.
 
 ## Xcode 26 and earlier (Classic)
 
@@ -31,7 +31,7 @@ Install the `.xccolortheme` files:
 - One Presentation (Dark)
 - One Presentation (Light)
 
-They use SF Mono Regular (Italic for comments), which ships with macOS and Xcode.
+They use SF Mono Regular with italic comments. SF Mono ships with macOS and Xcode.
 
 ## Installation
 
