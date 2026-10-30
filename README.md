@@ -31,7 +31,7 @@ Install the `.xccolortheme` files:
 - One Presentation (Dark)
 - One Presentation (Light)
 
-They use SF Mono Regular with italic comments. SF Mono ships with macOS and Xcode.
+They use SF Mono Regular with italic comments. SF Mono comes with Xcode and is also [available from Apple](https://developer.apple.com/fonts/).
 
 ## Installation
 
