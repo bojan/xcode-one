@@ -2,7 +2,7 @@
 
 A port of the original [Atom One Dark](https://github.com/atom/one-dark-syntax) and [Atom One Light](https://github.com/atom/one-light-syntax) syntax themes (MIT) for Xcode, with fresh gradient variants for Xcode 27.
 
-There are two sets: Modern for Xcode 27 and Classic for Xcode 26 and earlier. Install the one that matches your Xcode.
+The themes come in two file formats: one for Xcode 27 and one for Xcode 26 and earlier. Use the files that match your Xcode.
 
 > [!NOTE]
 > This repository provides both dark and light themes, but Xcode does not switch between them automatically. To change, set Appearance to Light or Dark in Settings → Appearance, then choose the matching theme under Theme → Choose….
