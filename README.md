@@ -43,6 +43,14 @@ Copy the files for your version (see above) to:
 
 If the folder doesn't exist, create it manually. Xcode 27 picks the files up right away. Xcode 26 and earlier need a restart. Then choose the theme in Settings → Themes.
 
+## Original themes
+
+The colors come from the original themes (MIT):
+
+- Atom syntax themes: [One Dark](https://github.com/atom/one-dark-syntax) and [One Light](https://github.com/atom/one-light-syntax)
+- Atom UI themes: [One Dark UI](https://github.com/atom/one-dark-ui) and [One Light UI](https://github.com/atom/one-light-ui)
+- VS Code ports: [One Dark](https://github.com/akamud/vscode-theme-onedark) and [One Light](https://github.com/akamud/vscode-theme-onelight)
+
 ## License
 
 [WTFPL](LICENSE)
