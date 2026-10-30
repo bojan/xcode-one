@@ -1,25 +1,48 @@
-# One Dark theme for Xcode
+# One Dark & One Light themes for Xcode
 
-This is a port of the original [Atom One Dark](https://github.com/atom/one-dark-syntax) theme for Xcode.
+A port of the original [Atom One Dark](https://github.com/atom/one-dark-syntax) and [Atom One Light](https://github.com/atom/one-light-syntax) syntax themes (MIT) for Xcode, with fresh gradient variants for Xcode 27.
+
+Each Xcode version gets its own set. Install only the set for your version.
+
+> [!NOTE]
+> This repository provides both dark and light themes, but Xcode does not switch between them automatically. To change, set Appearance to Light or Dark in Settings → Appearance, then choose the matching theme under Theme → Choose….
+
+## Xcode 27 (Modern)
+
+Install the `.xcworkspacecolortheme` files:
+
+| Dark | Light |
+| --- | --- |
+| One Dark | One Light |
+| One Dark Plum | One Light Plum |
+| One Dark Indigo | One Light Indigo |
+| One Dark Aurora | One Light Aurora |
+
+One Dark and One Light are the ports of the Atom themes, with a flat background. Plum, Indigo and Aurora are new variants, not from Atom: the same colors on a gradient background. For slides and screen sharing, use Presentation mode in Settings → Fonts.
+
+Xcode 27 themes do not contain fonts. The themes were designed with SF Mono Regular and italic comments, which you can set in Settings → Fonts.
+
+## Xcode 26 and earlier (Classic)
+
+Install the `.xccolortheme` files:
+
+- One (Dark)
+- One (Light)
+- One Presentation (Dark)
+- One Presentation (Light)
+
+They use SF Mono Regular (Italic for comments), which ships with macOS and Xcode.
 
 ## Installation
 
-You can install the theme by downloading [One Dark.xccolortheme](https://raw.githubusercontent.com/bojan/xcode-one-dark/master/One%20Dark.xccolortheme) and copying it to:
+Copy the files for your version (see above) to:
 
-	~/Library/Developer/Xcode/UserData/FontAndColorThemes
+```sh
+~/Library/Developer/Xcode/UserData/FontAndColorThemes
+```
 
-Note: If the folder doesn't exist, create it manually.
+If the folder doesn't exist, create it manually. Xcode 27 picks the files up right away. Xcode 26 and earlier need a restart. Then choose the theme in Settings → Themes.
 
-## Font
+## License
 
-The theme uses the excellent open-source font [Fira Code](https://github.com/tonsky/FiraCode).
-
-## Screenshots
-
-- [Thingy](https://github.com/bojan/Thingy)
-
-	![Thingy - One Dark](https://raw.githubusercontent.com/bojan/xcode-one-dark/master/screenshot-thingy.png)
-
-- [Troop](https://github.com/bojan/Troop)
-
-	![Troop - One Dark](https://raw.githubusercontent.com/bojan/xcode-one-dark/master/screenshot-troop.png)
+[WTFPL](LICENSE)
